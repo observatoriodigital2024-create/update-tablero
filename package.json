@@ -1,0 +1,13 @@
+{
+  "name": "tablero-proyectos-omd-2026-27",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "observable preview",
+    "build": "observable build",
+    "clean": "observable clean"
+  },
+  "dependencies": {
+    "@observablehq/framework": "latest"
+  }
+}
