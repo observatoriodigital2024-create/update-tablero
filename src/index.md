@@ -30,7 +30,7 @@ const responsables = FileAttachment("data/responsables.csv").csv({typed: true});
       <li><span>04</span><p><strong>Identificar y presentar propuestas de financiamiento</strong> que permitan ampliar y dar continuidad a las líneas prioritarias del Observatorio, privilegiando proyectos colaborativos y alianzas estratégicas frente a postulaciones individuales.</p></li>
       <li><span>05</span><p><strong>Ampliar la colaboración</strong> con profesores, grupos de investigación y áreas del Tecnológico de Monterrey, así como con universidades, medios, organizaciones civiles, verificadores, empresas y organismos nacionales e internacionales.</p></li>
       <li><span>06</span><p><strong>Integrar estudiantes y colaboradores en proyectos de investigación</strong> que permitan fortalecer capacidades en análisis de datos, investigación digital, inteligencia artificial y alfabetización mediática.</p></li>
-      <li><span>07</span><p><strong>Consolidar metodologías, herramientas y recursos propios del OMD</strong> que puedan reutilizarse en distintos proyectos y coyunturas, fortaleciendo al Observatorio como una infraestructura permanente de investigación y análisis digital.</p></li>
+      <li class="priority-goals"><span>07</span><p><strong>Consolidar metodologías, herramientas y recursos propios del OMD</strong> que puedan reutilizarse en distintos proyectos y coyunturas, fortaleciendo al Observatorio como una infraestructura permanente de investigación y análisis digital.</p></li>
     </ol>
   </div>
 </section>
