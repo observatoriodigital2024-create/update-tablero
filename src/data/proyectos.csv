@@ -1,34 +1,35 @@
 ﻿id,categoria,proyecto,responsables,lista_responsables,fecha_inicio,fecha_fin,estado,observaciones,por_hacer
-P001,Congresos y Eventos,Congreso La triada CCM,"Martín, Alejandra, Maricarmen, Jorge",Martín|Alejandra|Maricarmen|Jorge,2026-10-01,2026-10-02,En curso,Conferencias aceptadas,Preparar presentación
-P002,Congresos y Eventos,LASA 2027,Maricarmen,Maricarmen,2027-06-16,2027-06-20,No iniciado,,Proponer abstract para panel del OMD
+P001,Congresos y Eventos,Congreso La triada CCM,"Martín, Alejandra, Maricarmen",Martín|Alejandra|Maricarmen,2026-10-01,2026-10-02,En curso,Conferencias aceptadas,Preparar presentación
+P002,Congresos y Eventos,"LASA 2027, CDMX (Scopus)","Maricarmen, Gaby, Gonzalo, Alejandra",Maricarmen|Gaby|Gonzalo|Alejandra,2027-06-16,2027-06-20,No iniciado,https://lasaweb.org/es/lasa2027/proposals/,Proponer abstract para panel del OMD. Cierre de convocatoria: 9 de septiembre 2026
 P003,Congresos y Eventos,"Comunicación y Poder 2027, Sevilla",Maricarmen,Maricarmen,"abril, 2027",,No iniciado,,Proponer participación
 P004,Congresos y Eventos,Congreso AMIC,Maricarmen,Maricarmen,febrero,junio 2027,No iniciado,,Proponer ponencia
-P005,Congresos y Eventos,MEA Convention,Fernando,Fernando,junio 22 2027,"junio 26, 2027",No iniciado,,Participación
-P006,Publicaciones e investigación,Libro CONEICC,"Alejandra, Maricarmen, Ana, Martín",Alejandra|Maricarmen|Ana|Martín,,Por definir,Terminado,Estamos en espera de publicación,
-P007,Publicaciones e investigación,Artículo Scopus sobre Atributos Elecciones 2024,"Martin, Maricarmen, Ana",Martín|Maricarmen|Ana,,Por definir,Terminado,Se envió a Comunicación y Sociedad. Estamos en espera de dictamen,
-P008,Publicaciones e investigación,Artículo Scopus sobre SCJN,"Alejandra, Maricarmen",Alejandra|Maricarmen,,30 de septiembre,En curso,Se enviará a Palabra Clave,Terminar el artículo y enviarlo
-P009,Publicaciones e investigación,Artículo WUN,"Maricarmen, Gaby",Maricarmen|Gaby,,25 de agosto,En curso,Resumen en preparación para envío a IJCP,Enviar el resumen
-P010,Publicaciones e investigación,"Divulgación: Newsletter del OMD, colaboraciones en medios y RRSS","Ana, Gonzalo, Fernando, Martín, Jesús",Ana|Gonzalo|Fernando|Martín|Jesús,,1 de agosto 2026-junio 2027,En curso,"Se entrega texto cada semana, los lunes. Contacto con Daniel para participación en medios",Tener un plan individual de colaboraciones en el NL y en medios
-P011,Publicaciones e investigación,Seguimiento elecciones 2027,"Martín, Gonzalo, Víctor, Fernando, Miguel, Alejandra, Jesús",Martín|Gonzalo|Víctor|Fernando|Miguel|Alejandra|Jesús,,enero 2027,No iniciado,,Hacer plan de trabajo Elecciones 2027
-P012,Publicaciones e investigación,Informe discriminación ONU-OMD,"Miguel, Alfredo, Víctor, Martín, Gaby",Miguel|Alfredo|Víctor|Martín|Gaby,Agosto 2026,Diciembre 2026,En curso,,Análisis de datos ONU y propuesta del OMD
-P013,Publicaciones e investigación,Artículo Scopus IA/AMI,"Ana, Maricarmen, Víctor",Ana|Maricarmen|Víctor,enero 2027,diciembre 2027,No iniciado,Se levantarán datos este semestre,Buscar convocatoria
-P014,Publicaciones e investigación,Revista Virtualis,Maricarmen,Maricarmen,agosto 2026,junio 2027,En curso,Convocatoria actual sobre AMI,Participar como evaluadores
-P015,Publicaciones e investigación,Artículo Scopus IA / Educación,"Fernando, Víctor, Martín",Fernando|Víctor|Martín,Agosto 2026,junio 2027,En curso,,
-P016,Libro de proyectos OMD 2026-27,ROM-CONEICC,Maricarmen,Maricarmen,2024-06-26,Por definir,En curso,Estamos vigentes,Proponer alguna actividad
-P017,Libro de proyectos OMD 2026-27,Convenio con Universidad de Sevilla / Grupo ComPoder,Maricarmen,Maricarmen,2025-04-01,Por definir,En curso,En seguimiento con Boris,Video de firma de Pacto contra la desinformación
-P018,Libro de proyectos OMD 2026-27,CINU / ONU,"Martin, Gaby",Martín|Gaby,2026-06-10,Diciembre-2026,En curso,Estamos en pláticas para análisis de datos sobre discriminación en México,Publicación conjunta
-P019,Libro de proyectos OMD 2026-27,Verificado MX,"Martín, Gonzalo",Martín|Gonzalo,agosto-27,,En curso,Firmaremos una carta de colaboración,Construcción y operación de Chat bot y participación en eventos
-P020,Libro de proyectos OMD 2026-27,INE,"Martin, Maricarmen",Martín|Maricarmen,junio 2026,Por definir,En curso,Está en pausa,Reactivar comunicación. Proponer reunión
-P021,Libro de proyectos OMD 2026-27,MIL Alliance UNESCO,Fernando,Fernando,agosto 2026,Junio 2027,En curso,Nos registramos como miembros individuales de la Mil Alliance UNESCO,Dar seguimiento a proyecto
-P022,Fondos,Concocatorias Secihti,Alejandro y Maricarmen,Alejandro|Maricarmen,enero 2026,julio2027,Rechazado,,
-P023,Fondos,Convocatoria ANII,Gonzalo,Gonzalo,junio 2026,Pendiente,En curso,En espera de resultados,
-P024,Fondos,Taller para Deloitte,Maricarmen,Maricarmen,,,En curso,"Se envió propuesta, en espera de comentarios",
-P025,Fondos,Hudilab / Banamex,Maricarmen,Maricarmen,febrero 2026,Pendiente,En curso,En espera. Segumiento con David Zea,
-P026,Fondos,Por definir,Víctor,Víctor,agosto 2026,junio 2027,No iniciado,,Monitoreo y búsqueda de convocatorias
-P027,Proyectos,Programa de Verano de investigación Delfin,"Maricarmen, Gonzalo, Ana",Maricarmen|Gonzalo|Ana,junio 2026,julio 2026,Terminado,Participaron en el verano 2026,
-P028,Proyectos,Proyecto VerifactzGPT,"Ana, Maricarmen",Ana|Maricarmen,agosto 2026,diciembre 2026,En curso,Experimentación Novus en el aula,
-P029,Proyectos,Programa de becarios para campañas de RRSS,Gonzalo,Gonzalo,agosto 2026,diciembre 2026,No iniciado,,Solicitar becarios para el OMD
-P030,Proyectos,Chat bot OMD-Verifactz,"Martín, Gonzalo",Martín|Gonzalo,agosto 2026,junio 2027,En curso,,Diseño y puesto en marcha
-P031,Proyectos,Programa de servicio social elecciones 2027,"Gaby, Fernando",Gaby|Fernando,febrero 2027,junio 2027,No iniciado,,Proponer a Dante el programa de SS para seguimiento de elecciones 2027
-P032,Proyectos,Panel de análisis de hábitos de consumo de medios de estudiantes universitarios,"Gaby, Alejandra, Ana, Fernando, Martín",Gaby|Alejandra|Ana|Fernando|Martín,agosto 2026,junio 2027,No iniciado,"Propuesta de Sohie, con el apoyo de Comunicación Regional",Reunirnos con el equipo
-P033,Proyectos,Programa Delfín 2027,Maricarmen,Maricarmen,junio 2027,julio 2027,No iniciado,,Volver a aplicar en el programa
+P005,Congresos y Eventos,"MEA Convention, Huelva (Scopus)",Fernando,Fernando,junio 22 2027,"junio 26, 2027",No iniciado,https://media-ecology.org/2027-CFP,"Participación. Cierre de convocatoria: Diciembre 1, 2026"
+P006,Congresos y Eventos,"HEeti, Yucatán",Fernando,Fernando,,,Sin estado,,
+P007,Publicaciones e investigación,Libro CONEICC,"Alejandra, Maricarmen, Ana, Martín",Alejandra|Maricarmen|Ana|Martín,,Por definir,En curso,Estamos en espera de publicación,
+P008,Publicaciones e investigación,Artículo Scopus sobre Atributos Elecciones 2024,"Martin, Maricarmen, Ana",Martín|Maricarmen|Ana,,Por definir,En curso,Se envió a Comunicación y Sociedad. Estamos en espera de dictamen,
+P009,Publicaciones e investigación,Artículo Scopus sobre SCJN,"Alejandra, Maricarmen",Alejandra|Maricarmen,,30 de septiembre,En curso,Se enviará a Palabra Clave,Terminar el artículo y enviarlo
+P010,Publicaciones e investigación,Artículo WUN,"Maricarmen, Gaby, Víctor",Maricarmen|Gaby|Víctor,,25 de agosto,En curso,Resumen en preparación para envío a IJCP,Enviar el resumen
+P011,Publicaciones e investigación,"Divulgación: Newsletter del OMD, colaboraciones en medios y RRSS","Ana, Gonzalo, Fernando, Martín, Jesús",Ana|Gonzalo|Fernando|Martín|Jesús,,1 de agosto 2026-junio 2027,En curso,"Se entrega texto cada semana, los lunes. Contacto con Daniel para participación en medios",Tener un plan individual de colaboraciones en el NL y en medios
+P012,Publicaciones e investigación,Seguimiento elecciones 2027,"Martín, Gonzalo, Víctor, Fernando, Miguel, Alejandra, Jesús, Ana",Martín|Gonzalo|Víctor|Fernando|Miguel|Alejandra|Jesús|Ana,,enero 2027,No iniciado,,Hacer plan de trabajo Elecciones 2027
+P013,Publicaciones e investigación,Informe discriminación ONU-OMD,"Miguel, Alfredo, Víctor, Martín, Gaby, Alejandra",Miguel|Alfredo|Víctor|Martín|Gaby|Alejandra,Agosto 2026,Diciembre 2026,En curso,,Análisis de datos ONU y propuesta del OMD
+P014,Publicaciones e investigación,Artículo Scopus IA/AMI,"Ana, Maricarmen",Ana|Maricarmen,enero 2027,diciembre 2027,No iniciado,Se levantarán datos este semestre,Buscar convocatoria
+P015,Publicaciones e investigación,Revista Virtualis,Maricarmen,Maricarmen,agosto 2026,junio 2027,En curso,Convocatoria actual sobre AMI,Participar como evaluadores
+P016,Publicaciones e investigación,Artículo Scopus IA/ Educación,"Fernando, Martín, Víctor",Fernando|Martín|Víctor,,,Sin estado,,
+P017,Redes y convenios,ROM-CONEICC,Maricarmen,Maricarmen,2024-06-26,Por definir,En curso,Estamos vigentes,Proponer alguna actividad
+P018,Redes y convenios,Convenio con Universidad de Sevilla / Grupo ComPoder,Maricarmen,Maricarmen,2025-04-01,Por definir,En curso,En seguimiento con Boris,Video de firma de Pacto contra la desinformación
+P019,Redes y convenios,CINU / ONU,"Martin, Gaby",Martín|Gaby,2026-06-10,Diciembre-2026,En curso,https://tecmx-my.sharepoint.com/:f:/r/personal/martindelcampo_tec_mx/Documents/Observatorio%20Digital/Proyecto%20Informe%20sobre%20Discursos%20de%20odio%20ONU-OMD?d=w3ab26c5d7cb248a9a2fbd2a6d469368b&csf=1&web=1&e=bKUC1b,Hacer propuestas para la publicación conjunta
+P020,Redes y convenios,Verificado MX,"Martín, Gonzalo",Martín|Gonzalo,agosto-27,,En curso,Firmaremos una carta de colaboración,Construcción y operación de Chat bot y participación en eventos
+P021,Redes y convenios,INE,"Martin, Maricarmen",Martín|Maricarmen,junio 2026,Por definir,En curso,Está en pausa,Reactivar comunicación. Proponer reunión
+P022,Redes y convenios,MIL Alliance UNESCO,Fernando,Fernando,agosto 2026,Junio 2027,En curso,Nos registramos como miembros individuales de la Mil Alliance UNESCO,Dar seguimiento a proyecto
+P023,Fondos,Convocatorias Secihti,Alejandro y Maricarmen,Alejandro|Maricarmen,enero 2026,julio2027,Rechazado,,
+P024,Fondos,Convocatoria ANII,Gonzalo,Gonzalo,junio 2026,Pendiente,En curso,En espera de resultados,
+P025,Fondos,Taller para Deloitte,Maricarmen,Maricarmen,,,En curso,"Se envió propuesta, en espera de comentarios",
+P026,Fondos,Hudilab / Banamex,Maricarmen,Maricarmen,febrero 2026,Pendiente,En curso,En espera. Segumiento con David Zea,
+P027,Fondos,Por definir,Víctor,Víctor,agosto 2026,junio 2027,No iniciado,,Monitoreo y búsqueda de convocatorias
+P028,Proyectos con impacto en el aul,Programa de Verano de investigación Delfin,"Maricarmen, Gonzalo, Ana",Maricarmen|Gonzalo|Ana,junio 2026,julio 2026,Terminado,Participaron en el verano 2026,
+P029,Proyectos con impacto en el aul,Proyecto VerifactzGPT,"Ana, Maricarmen",Ana|Maricarmen,agosto 2026,diciembre 2026,En curso,Experimentación Novus en el aula,
+P030,Proyectos con impacto en el aul,Programa de becarios para campañas de RRSS,Gonzalo,Gonzalo,agosto 2026,diciembre 2026,No iniciado,,Solicitar becarios para el OMD
+P031,Proyectos con impacto en el aul,Chat bot OMD-Verifactz,"Martín, Gonzalo",Martín|Gonzalo,agosto 2026,junio 2027,En curso,,Diseño y puesto en marcha
+P032,Proyectos con impacto en el aul,Programa de servicio social elecciones 2027,"Gaby, Fernando",Gaby|Fernando,febrero 2027,junio 2027,No iniciado,,Proponer a Dante el programa de SS para seguimiento de elecciones 2027
+P033,Proyectos con impacto en el aul,Panel de análisis de hábitos de consumo de medios de estudiantes universitarios,"Gaby, Alejandra, Ana, Fernando, Martín",Gaby|Alejandra|Ana|Fernando|Martín,agosto 2026,junio 2027,No iniciado,"Propuesta de Sophie, con el apoyo de Comunicación Regional",Reunirnos con el equipo
+P034,Proyectos con impacto en el aul,Programa Delfín 2027,Maricarmen,Maricarmen,junio 2027,julio 2027,No iniciado,,Volver a aplicar en el programa
