@@ -12,7 +12,7 @@ const responsables = FileAttachment("data/responsables.csv").csv({typed: true});
   <div>
     <span class="kicker">OBSERVATORIO DE MEDIOS DIGITALES</span>
     <h1>Plan anual OMD</h1>
-    <p>Agenda de investigación, producción académica, transferencia, financiamiento y colaboración institucional.</p>
+    <p>Agenda de investigación, producción académica, transferencia de conocimiento, procuración de fondos y colaboración institucional.</p>
   </div>
   <div class="year">26–27</div>
 </header>
@@ -37,6 +37,7 @@ const responsables = FileAttachment("data/responsables.csv").csv({typed: true});
 
 ## Seguimiento de proyectos
 
+<p class="section-note dashboard-intro">A partir del 1 de agosto de 2026</p>
 <p class="section-note dashboard-intro">Utiliza los filtros para explorar los proyectos que hacen operativa esta agenda anual y revisar sus responsables, avances y siguientes acciones.</p>
 
 ```js
@@ -84,14 +85,14 @@ const terminados = filtrados.filter(d => d.estado === "Terminado").length;
     body{background:var(--cream);color:var(--ink);font-size:18px}
     #observablehq-main{max-width:1440px;padding:0 34px 70px}
     .hero{display:flex;justify-content:space-between;align-items:end;padding:72px 0 48px;border-bottom:1px solid var(--ink);margin-bottom:0}
-    .kicker{font-size:13px;font-weight:800;letter-spacing:.17em;color:var(--coral)}
+    .kicker{font-size:39px;font-weight:800;letter-spacing:.17em;color:var(--coral)}
     .hero h1{font-family:Georgia,serif;font-size:clamp(52px,8vw,108px);line-height:.9;letter-spacing:-.06em;margin:24px 0;color:var(--ink)}
-    .hero p{max-width:700px;font-size:20px;line-height:1.5;color:#415049}
+    .hero p{max-width:700px;font-size:19px;line-height:1.5;color:#415049}
     .year{font:bold clamp(50px,8vw,115px)/.8 Georgia,serif;color:var(--coral);white-space:nowrap}
     .annual-plan{display:grid;grid-template-columns:1fr 3fr;gap:50px;padding:60px 0 70px;border-bottom:1px solid var(--ink)}
-    .plan-label{font-size:11px;font-weight:800;letter-spacing:.17em;color:var(--headline)}
+    .plan-label{font-size:33px;font-weight:800;letter-spacing:.17em;color:var(--headline)}
     .plan-content{max-width:960px}
-    .plan-content>p{font-size:19px;line-height:1.7;color:#415049}
+    .plan-content>p{font-size:18px;line-height:1.7;color:#415049}
     .plan-lead{font:500 clamp(25px,3vw,38px)/1.25 Georgia,serif!important;letter-spacing:-.025em;color:var(--ink)!important;margin-top:0}
     .plan-content h2{margin:55px 0 24px}
     /* Titulares en azul */
@@ -101,8 +102,8 @@ const terminados = filtrados.filter(d => d.estado === "Terminado").length;
     .priorities li{display:grid;grid-template-columns:44px 1fr;gap:12px;padding:22px 22px 22px 0;border-bottom:1px solid var(--line)}
     .priorities li:nth-child(odd){border-right:1px solid var(--line)}
     .priorities li:nth-child(even){padding-left:22px}
-    .priorities span{font-size:13px;font-weight:800;color:var(--coral)}
-    .priorities p{margin:0;font-size:16px;line-height:1.55;color:#415049}
+    .priorities span{font-size:40px;font-weight:800;color:var(--coral)}
+    .priorities p{margin:0;font-size:15px;line-height:1.55;color:#415049}
     .priorities strong{color:var(--ink)}
     .priorities .priority-goals{grid-column:1/-1;border-right:0;padding:30px 0;width:100%}
     .priority-goals h3{margin:0 0 12px;font:500 25px/1.15 Georgia,serif;color:var(--ink)}
@@ -117,7 +118,7 @@ const terminados = filtrados.filter(d => d.estado === "Terminado").length;
     .kpis strong{display:block;font:500 55px/1 Georgia,serif;margin:18px 0 10px}
     .kpi-number{color:var(--headline)}
     .kpis small,.section-note{color:var(--muted)}
-    h2{font:500 44px/1 Georgia,serif;letter-spacing:-.03em;margin-top:70px}
+    h2{font:500 22px/1 Georgia,serif;letter-spacing:-.03em;margin-top:70px}
     .grid-two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
     .chart-card{background:#fff;border:1px solid var(--line);padding:22px;border-radius:4px;overflow:hidden}
     .chart-card h3{font-size:15px;text-transform:uppercase;letter-spacing:.1em;margin:0 0 14px}
@@ -136,6 +137,7 @@ const terminados = filtrados.filter(d => d.estado === "Terminado").length;
     .pill{font-size:12px;text-transform:uppercase;font-weight:800;padding:6px 8px;border-radius:99px;text-align:center;background:#dfe5e2;color:#0f1a23}
     .pill-en-curso{background:#f7b955;color:#12212a}
     .pill-no-iniciado{background:#f08432;color:#12212a}
+    .pill-por-iniciar{background:#f08432;color:#12212a}
     .pill-terminado{background:#4caf50;color:#fff}
     .pill-rechazado{background:#e53935;color:#fff}
     .footer{margin-top:70px;padding-top:25px;border-top:1px solid var(--ink);font-size:13px;color:var(--muted)}
@@ -146,7 +148,7 @@ const terminados = filtrados.filter(d => d.estado === "Terminado").length;
   ```js
   const conTareas = filtrados.filter(d => d.por_hacer).length;
   const activos = filtrados.filter(d => d.estado === "En curso").length;
-  const noIniciados = filtrados.filter(d => d.estado === "No iniciado").length;
+  const noIniciados = filtrados.filter(d => d.estado === "Por iniciar").length;
   ```
 
 <div class="filters">
@@ -157,7 +159,7 @@ const terminados = filtrados.filter(d => d.estado === "Terminado").length;
   <article><span>Proyectos visibles</span><strong class="kpi-number">${filtrados.length}</strong><small>de ${proyectos.length} registrados</small></article>
   <article><span>En curso</span><strong class="kpi-number">${activos}</strong><small>requieren seguimiento</small></article>
   <article><span>Terminados</span><strong class="kpi-number">${terminados}</strong><small>${filtrados.length ? Math.round(terminados / filtrados.length * 100) : 0}% de la selección</small></article>
-  <article><span>No iniciados</span><strong class="kpi-number">${noIniciados}</strong><small>por activar</small></article>
+  <article><span>Por iniciar</span><strong class="kpi-number">${noIniciados}</strong><small>por activar</small></article>
 </div>
 
 ## Panorama del portafolio
@@ -171,7 +173,7 @@ const terminados = filtrados.filter(d => d.estado === "Terminado").length;
       marginLeft: 92,
       x: {label: null, grid: true, tickFormat: d => Number.isInteger(d) ? d : ""},
       y: {label: null},
-      color: {domain: ["En curso", "No iniciado", "Terminado", "Rechazado"], range: ["#f7b955", "#f08432", "#4caf50", "#e53935"], legend: true},
+      color: {domain: ["En curso", "Por iniciar", "Terminado"], range: ["#f7b955", "#f08432", "#4caf50"], legend: true},
       marks: [
         Plot.barX(filtrados, Plot.groupY({x: "count"}, {y: "estado", fill: "estado", sort: {y: "-x"}, tip: true})),
         Plot.ruleX([0])
